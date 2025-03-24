@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#input{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(255, 209, 149);
+    color: black;
+    font-size: 1.4vw;
+    outline: none;
+}
+#input input{
+    padding: 0.7vw;
+    font-size: 1.4vw;
+    background-color: rgb(255, 209, 149);
+    border: none;
+}
+#input input::placeholder{
+    color: black;
+    padding: 0.7vw;
+}
